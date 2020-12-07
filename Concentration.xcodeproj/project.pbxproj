@@ -13,6 +13,8 @@
 		A66907562566607900D03E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66907542566607900D03E09 /* Main.storyboard */; };
 		A66907582566607B00D03E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A66907572566607B00D03E09 /* Assets.xcassets */; };
 		A669075B2566607B00D03E09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66907592566607B00D03E09 /* LaunchScreen.storyboard */; };
+		A66907682566AD0100D03E09 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66907672566AD0100D03E09 /* Card.swift */; };
+		A669076B2566AD5600D03E09 /* ConcentrationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A669076A2566AD5600D03E09 /* ConcentrationGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A66907572566607B00D03E09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A669075A2566607B00D03E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A669075C2566607B00D03E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A66907672566AD0100D03E09 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A669076A2566AD5600D03E09 /* ConcentrationGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				A669074E2566607900D03E09 /* AppDelegate.swift */,
 				A66907502566607900D03E09 /* SceneDelegate.swift */,
 				A66907522566607900D03E09 /* ViewController.swift */,
+				A66907672566AD0100D03E09 /* Card.swift */,
+				A669076A2566AD5600D03E09 /* ConcentrationGame.swift */,
 				A66907542566607900D03E09 /* Main.storyboard */,
 				A66907572566607B00D03E09 /* Assets.xcassets */,
 				A66907592566607B00D03E09 /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			files = (
 				A66907532566607900D03E09 /* ViewController.swift in Sources */,
 				A669074F2566607900D03E09 /* AppDelegate.swift in Sources */,
+				A669076B2566AD5600D03E09 /* ConcentrationGame.swift in Sources */,
 				A66907512566607900D03E09 /* SceneDelegate.swift in Sources */,
+				A66907682566AD0100D03E09 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A4647YNHF8;
 				INFOPLIST_FILE = Concentration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A4647YNHF8;
 				INFOPLIST_FILE = Concentration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
