@@ -41,6 +41,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A603C00C2580C3E0002CE1D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A66907522566607900D03E09 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A603C00D2580C3EE002CE1D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A66907672566AD0100D03E09 /* Card.swift */,
+				A669076A2566AD5600D03E09 /* ConcentrationGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A603C00E2580C401002CE1D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A66907542566607900D03E09 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A66907422566607900D03E09 = {
 			isa = PBXGroup;
 			children = (
@@ -62,10 +87,9 @@
 			children = (
 				A669074E2566607900D03E09 /* AppDelegate.swift */,
 				A66907502566607900D03E09 /* SceneDelegate.swift */,
-				A66907522566607900D03E09 /* ViewController.swift */,
-				A66907672566AD0100D03E09 /* Card.swift */,
-				A669076A2566AD5600D03E09 /* ConcentrationGame.swift */,
-				A66907542566607900D03E09 /* Main.storyboard */,
+				A603C00D2580C3EE002CE1D7 /* Model */,
+				A603C00C2580C3E0002CE1D7 /* Controller */,
+				A603C00E2580C401002CE1D7 /* View */,
 				A66907572566607B00D03E09 /* Assets.xcassets */,
 				A66907592566607B00D03E09 /* LaunchScreen.storyboard */,
 				A669075C2566607B00D03E09 /* Info.plist */,
